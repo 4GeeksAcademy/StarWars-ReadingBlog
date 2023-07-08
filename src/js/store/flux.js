@@ -1,8 +1,3 @@
-import React, { useState, useEffect } from "react";
-
-import { Card } from "../component/bootstrap/card";
-import { Vehicle } from "../views/vehicle";
-
 const getState = ({ getStore, getActions, setStore }) => {
 	const SWAPI_ROOT = "https://swapi.dev/api/";
 	const CHARACTERS_ENDPOINT = "people/";

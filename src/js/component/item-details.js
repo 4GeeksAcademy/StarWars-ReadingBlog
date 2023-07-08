@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
 import starWars800x600 from "../../img/star-wars-800x600.jpg";
-import { Context } from "../store/appContext";
 import { PropTypes } from "prop-types";
 
 export const ItemDetails = props => {
