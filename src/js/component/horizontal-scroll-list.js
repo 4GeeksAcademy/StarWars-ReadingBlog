@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Card } from "../component/bootstrap/card";
+import { Card } from "../component/bootstrap/card.js";
 
 export const HorizontalScrollList = props => {
 	HorizontalScrollList.propTypes = {
